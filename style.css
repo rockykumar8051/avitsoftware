@@ -28,7 +28,7 @@ body, html {
   
   
   .topleft img{
-     width: 400px;
+    width: 400px;
     position: absolute;
     top: 10;
     left: 16px;
@@ -37,10 +37,19 @@ body, html {
   
   .bottomleft {
      position: absolute;
-     bottom: 0%;
-     left: 45%;
-     transform: translate(-0%, -50%);
-
+     bottom: 50px;
+     right: 50px; 
+  }
+  .bottomleft a{
+    text-decoration: none;
+    display: block;
+    font-size: 30px;
+    box-sizing: border-box;
+    background-color: #ffff;
+    margin: 10px 0;
+    padding: 10px  15px;
+    border-radius: 50%;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);
   }
   
   .middle h1{
@@ -68,21 +77,22 @@ body, html {
   @media only screen and (max-width: 768px) {
 
     .bgimg{
-        font-size: 20px;
+        font-size: 15px;
     }
     .topleft img{
-        width: 250px;
+       width: 250px;
        position: absolute;
        top: 10px;
        left: 10px;
      }
-     .bottomleft {
-        position: absolute;
-        bottom: 0%;
-        left: 35%;
-        transform: translate(-0%, -50%);
-   
+     .bottomleft{
+       bottom: 15px;
+       right: 25px;
      }
+     .bottomleft a{
+       font-size: 25px;
+     }
+  
      
      
   }
